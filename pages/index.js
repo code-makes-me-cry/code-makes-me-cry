@@ -86,6 +86,10 @@ export default function Home({ allPostsData }) {
           You can find my freelance portfolio at{' '}
           <a href="https://www.evalarumbe.com">evalarumbe.com</a>
         </p>
+        <p>
+          The source code for this site is on{' '}
+          <a href="https://github.com/evalarumbe/code-makes-me-cry">GitHub</a>
+        </p>
       </footer>
     </Layout>
   );
