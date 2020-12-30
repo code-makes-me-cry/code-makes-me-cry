@@ -3,8 +3,6 @@ title: 'Git checklists'
 modified: '2020-12-30'
 ---
 
-# Git checklists
-
 If you've been learning the **command line** and **git** but need some practice, this is for you.
 
 These checklists are intended as
@@ -17,7 +15,7 @@ These checklists are intended as
 
 - guidance in pursuit of that most elusive question that plagues you at the start of every project:
 
-  "Where the *bleep* am I, and how do I drive this thing?"
+  "Where the _bleep_ am I, and how do I drive this thing?"
 
 Go through these for each project, until you've memorized how to do each step and they become second nature; until opening a dusty old project folder feels like a cool breeze on a Summer's day.
 
@@ -42,7 +40,7 @@ A repo is a version-controlled directory, i.e. one that contains a hidden `.git`
   (if these questions are challenging for your level of Git,
   then I wouldn't recommend creating nested repos on purpose,
   but they do often happen by accident and cause problems)
-  
+
   Make sure none of the folders above this one (ancestors) are git repos.
 
   Make sure none of the folders inside this one (descendants) are git repos.
@@ -73,11 +71,11 @@ A repo is a version-controlled directory, i.e. one that contains a hidden `.git`
 #### Extra checks for projects that have a **package.json** file
 
 - My terminal is open to the same dir as the **package.json** that belongs to my project.
-(If you see several **package.json** files and that's confusing, open them and read the first few lines to see which project they belong to.
-We don't need to do anything with **package-lock.json**, so leave it wherever you see it. Just make sure you're running commands from the same dir where you found it).
+  (If you see several **package.json** files and that's confusing, open them and read the first few lines to see which project they belong to.
+  We don't need to do anything with **package-lock.json**, so leave it wherever you see it. Just make sure you're running commands from the same dir where you found it).
 
 - I should have a **node_modules** dir.
-(If you don't have one, you'll need to run `$ npm i` but remember not to type the `$` — it just means
-that the following things are intended for the terminal. Remember this, you'll see that `$` everywhere).
+  (If you don't have one, you'll need to run `$ npm i` but remember not to type the `$` — it just means
+  that the following things are intended for the terminal. Remember this, you'll see that `$` everywhere).
 
 - Now that I have a **node_modules** dir, I also need to have a **.gitignore** file that says `node_modules` (no quotes or trailing slash needed).

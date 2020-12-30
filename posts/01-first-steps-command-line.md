@@ -3,8 +3,6 @@ title: 'First steps with the command line'
 modified: '2020-12-30'
 ---
 
-# First steps with the command line
-
 The command line (CLI) is one of the first tools you'll pick up along your developer journey, and it'll serve you (I can't see the future, but I reckon) for the whole road ahead.
 
 It's just one part of developer life, but the topic is kind of endless. Once you've gone through this guide, you can safely say you've covered the basics of the CLI, and move onto the next thing. It's normal to pick up new tips and tricks as you use it over time.
