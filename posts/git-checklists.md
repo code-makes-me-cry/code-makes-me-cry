@@ -1,6 +1,6 @@
 ---
 title: 'Git checklists'
-date: '2020-12-30'
+modified: '2020-12-30'
 ---
 
 # Git checklists

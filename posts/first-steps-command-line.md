@@ -1,6 +1,6 @@
 ---
 title: 'First steps with the command line'
-date: '2020-12-30'
+modified: '2020-12-30'
 ---
 
 # First steps with the command line
