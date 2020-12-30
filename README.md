@@ -1,7 +1,11 @@
 # Code Makes Me Cry
 
-A collection of assorted educational resources (read: an excuse to play with Next)
+A collection of assorted educational resources.
 
-This builds on the starter template from [Learn Next.js](https://nextjs.org/learn).
+See it live at [codemakesmecry.com](https://www.codemakesmecry.com)
 
-Now with Docker! Follows most of the [get started](https://docs.docker.com/get-started/) video, [adapted for Next.js](https://medium.com/swlh/dockerize-your-next-js-application-91ade32baa6).
+## Nerd things
+
+This was largely an excuse to play with Next.js, and builds on the starter template at [Learn Next.js](https://nextjs.org/learn).
+
+Now with Docker! The Dockerfile and compose file follow most of [Docker's 'get started' video](https://docs.docker.com/get-started/), with a couple of [adaptations for Next.js](https://medium.com/swlh/dockerize-your-next-js-application-91ade32baa6).
