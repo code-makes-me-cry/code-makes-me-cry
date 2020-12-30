@@ -30,28 +30,63 @@ export default function Home({ allPostsData }) {
       <Head>
         <title>{siteTitle}</title>
       </Head>
-      <section className={utilStyles.headingMd}>
+      <section className={utilStyles.subtitle}>
+        <p>(because let's face it)</p>
+      </section>
+      <section>
         <p>
-          (This is a sample website. You'll be building a site like this on{' '}
-          <a href="https://nextjs.org/learn">our Next.js tutorial</a>).
+          Hi, I'm Eva Larumbe and my name is a four-letter word in JavaScript
+          that has almost certainly made people cry.
+        </p>
+        <h2>Have fun, code more, cry less</h2>
+        <p>
+          Since I discovered I could explain code to people, I haven't stopped.
+          <br />
+          I've always been a passionate learner, and it makes my heart happy to
+          pay it forward, getting junior developers excited about all the cool
+          stuff we can build with code.
+        </p>
+        <p>
+          I'm excited about long-term ideas like starting a YouTube channel and
+          creating structured courses, but for now, here are a couple of starter
+          resources.
+        </p>
+        <p>
+          In 2019, I taught front-end web dev in a full-time bootcamp (we called
+          ourselves the Wi-Fighters). Along the way, we collected some{' '}
+          <a href="https://airtable.com/shr16yN6G7ED1AKxj">
+            curated entry-level materials in an Airtable
+          </a>
+          , that you might find helpful if you're just getting started.
         </p>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
-        <h2 className={utilStyles.headingLg}>Blog</h2>
+        <h2 className={utilStyles.headingLg}>Guides</h2>
         <ul className={utilStyles.list}>
-          {allPostsData.map(({ id, modified, title }) => (
-            <li className={utilStyles.listItem} key={id}>
-              <Link href={`/posts/${id}`}>
-                <a>{title}</a>
-              </Link>
-              <br />
-              <small className={utilStyles.lightText}>
-                <Date dateString={modified} />
-              </small>
-            </li>
-          ))}
+          {allPostsData
+            .sort((a, b) => {
+              // alphabetical by filename, ascending
+              return a.id >= b.id ? 1 : -1;
+            })
+            .map(({ id, modified, title }) => (
+              <li className={utilStyles.listItem} key={id}>
+                <Link href={`/posts/${id}`}>
+                  <a>{title}</a>
+                </Link>
+                <br />
+                <small className={utilStyles.lightText}>
+                  <Date dateString={modified} />
+                </small>
+              </li>
+            ))}
         </ul>
       </section>
+      <footer>
+        <p>
+          You can find my freelance portfolio at{' '}
+          <a href="https://www.evalarumbe.com">evalarumbe.com</a>
+        </p>
+      </footer>
     </Layout>
   );
 }

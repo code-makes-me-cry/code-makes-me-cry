@@ -20,9 +20,13 @@
   margin: 1rem 0;
 }
 
-.headingMd {
+.headingMd, .subtitle {
   font-size: 1.2rem;
   line-height: 1.5;
+}
+
+.subtitle {
+  text-align: center;
 }
 
 .borderCircle {
