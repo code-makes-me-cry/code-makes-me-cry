@@ -30,9 +30,6 @@ export default function Home({ allPostsData }) {
       <Head>
         <title>{siteTitle}</title>
       </Head>
-      <section className={utilStyles.subtitle}>
-        <p>(because let's face it)</p>
-      </section>
       <section>
         <p>
           Hi, I'm Eva Larumbe and my name is a four-letter word in JavaScript

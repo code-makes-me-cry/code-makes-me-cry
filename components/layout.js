@@ -33,6 +33,9 @@ export default function Layout({ children, home }) {
               alt={name}
             />
             <h1 className={utilStyles.heading2Xl}>{name}</h1>
+            <section className={utilStyles.subtitle}>
+              <p>(because let's face it)</p>
+            </section>
           </>
         ) : (
           <>
