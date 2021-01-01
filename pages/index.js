@@ -85,7 +85,9 @@ export default function Home({ allPostsData }) {
         </p>
         <p>
           The source code for this site is on{' '}
-          <a href="https://github.com/evalarumbe/code-makes-me-cry">GitHub</a>
+          <a href="https://github.com/code-makes-me-cry/code-makes-me-cry">
+            GitHub
+          </a>
         </p>
       </footer>
     </Layout>
