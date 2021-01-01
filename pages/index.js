@@ -83,7 +83,7 @@ export default function Home({ allPostsData }) {
       </section>
       <footer>
         <p>
-          You can find my freelance portfolio at{' '}
+          You can find my portfolio at{' '}
           <a href="https://www.evalarumbe.com">evalarumbe.com</a>
         </p>
         <p>
