@@ -2,7 +2,7 @@
 
 A collection of assorted educational resources.
 
-See it live at [codemakesmecry.com](https://www.codemakesmecry.com)
+See it live at [code-makes-me-cry.com](https://www.code-makes-me-cry.com)
 
 ## Nerd things
 
