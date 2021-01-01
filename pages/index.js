@@ -65,8 +65,8 @@ export default function Home({ allPostsData }) {
         <ul className={utilStyles.list}>
           {allPostsData
             .sort((a, b) => {
-              // alphabetical by filename, ascending
-              return a.id >= b.id ? 1 : -1;
+              // recent posts first
+              return a.modified < b.modified ? 1 : -1;
             })
             .map(({ id, modified, title }) => (
               <li className={utilStyles.listItem} key={id}>

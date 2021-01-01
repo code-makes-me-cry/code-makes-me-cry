@@ -1,6 +1,6 @@
 ---
 title: 'Git checklists'
-modified: '2020-12-30'
+modified: '2020-12-30T12:31+01:00'
 ---
 
 If you've been learning the **command line** and **git** but need some practice, this is for you.
