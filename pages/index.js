@@ -35,7 +35,7 @@ export default function Home({ allPostsData }) {
           Hi, I'm Eva Larumbe and my name is a four-letter word in JavaScript
           that has almost certainly made people cry.
         </p>
-        <h2>Have fun, code more, cry less</h2>
+        <h2 class={utilStyles.headingMd}>Have fun, code more, cry less</h2>
         <p>
           Since I discovered I could explain code to people, I haven't stopped.
           <br />
